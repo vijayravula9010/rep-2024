@@ -1,0 +1,107 @@
+#first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 2px solid black;
+}
+.secounddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 420px;
+  height: 570px;
+}
+.sms {
+  display: flex;
+
+  color: aqua;
+}
+
+.password {
+  color: rgba(1, 75, 139, 0.516);
+  position: relative;
+  right: 80px;
+  bottom: 50px;
+}
+
+.mainlogin {
+  color: rgba(1, 75, 139, 0.516);
+  text-decoration-style: solid;
+  text-decoration: underline orange;
+}
+.eaddress {
+  display: flex;
+  justify-content: left;
+
+  width: 190px;
+
+  color: rgba(1, 75, 139, 0.516);
+}
+.eeadress {
+  width: 300px;
+  height: 20px;
+  color: rgba(0, 0, 0, 0.251);
+  border-radius: 10px;
+  border: 0px solid orange;
+}
+
+.epassword {
+  width: 300px;
+  height: 30px;
+  border: 0px solid orange;
+  color: rgba(0, 0, 0, 0.251);
+  border-radius: 10px;
+}
+
+.fpassword {
+  width: 150px;
+  font-style: normal;
+  font-weight: 300rem;
+  color: rgba(1, 75, 139, 0.516);
+  text-decoration-style: solid;
+  text-decoration: underline orange;
+}
+
+.login {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(231, 111, 6);
+  border-radius: 30px;
+  color: rgba(240, 248, 255, 0.516);
+  border: 1px solid black;
+}
+.keka {
+  height: 30px;
+  width: 170px;
+  background-color: rgb(231, 111, 6);
+  border-radius: 30px;
+  color: rgba(240, 248, 255, 0.516);
+  border: 1px solid black;
+}
+.loginContainer {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smalldiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+
+  width: 80%;
+  position: relative;
+  bottom: 40px;
+}
+.ecp {
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+}
